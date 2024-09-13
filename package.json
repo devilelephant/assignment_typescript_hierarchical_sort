@@ -1,0 +1,20 @@
+{
+  "name": "hsort",
+  "description": "Command line tool to perform a hierarchical sort on a csv file",
+  "version": "1.0.0",
+  "main": "hsort.js",
+  "bin": {
+    "hsort": "./dist/hsort.js"
+  },
+  "scripts": {
+    "build": "tsc && chmod +x dist/hsort.js",
+    "start": "ts-node src/hsort.ts",
+    "clean": "rm -r dist"
+  },
+  "author": "George Coller",
+  "devDependencies": {
+    "@types/node": "^20.14.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  }
+}
