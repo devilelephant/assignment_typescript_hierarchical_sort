@@ -1,0 +1,8 @@
+# IDE specific files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Optional: MacOS-specific files
+.DS_Store
